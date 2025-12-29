@@ -1,6 +1,6 @@
-# greek-keymap
+# unicode-keys
 
-Greek keyboard for technical purposes. A package that allows users to easily enter unicode characters into their text using [AutoHotKey v2](https://www.autohotkey.com/).
+A package that allows users to easily enter unicode characters into their text using [AutoHotKey v2](https://www.autohotkey.com/).
 
 ## Features
 
@@ -13,8 +13,8 @@ Greek keyboard for technical purposes. A package that allows users to easily ent
 
 Using the binaries:
 
-1. Download the latest binaries from the [releases](https://github.com/bacadra/ahk-greek-keymap/releases) page.
-2. Run the `greek-keymap_x86.exe` or `greek-keymap_x64.exe` binaries.
+1. Download the latest binaries from the [releases](https://github.com/asiloisad/ahk-unicode-keys/releases) page.
+2. Run the `unicode-keys_x86.exe` or `unicode-keys_x64.exe` binaries.
 
 Using the script:
 
@@ -101,7 +101,7 @@ Math symbols acc. [link](https://ctan.org/pkg/amsmath):
 - `r`: `√` (_aka_ `\root`)
 - `s`: `∑` (_aka_ `\sum`)
 - `=`: `≈` (_aka_ `\aprox`)
-- `@`: `°` (_aka_ `\degree`)
+- `o`: `°` (_aka_ `\degree`)
 - `+`: `±` (_aka_ `\pm`)
 - `'`: `ʾ`
 

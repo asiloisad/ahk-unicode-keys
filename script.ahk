@@ -9,7 +9,7 @@ IH.OnEnd := OnEnd
 STATE := 0
 
 ; Worker max level
-PRMAX := 3
+PRMAX := 2
 
 ; Start collection of input
 Pause::
@@ -121,7 +121,7 @@ Worker_2(ih, char)
     case "r": TextRaw(ih, "√") ; \root
     case "s": TextRaw(ih, "∑") ; \sum
     case "=": TextRaw(ih, "≈") ; \aprox
-    case "@": TextRaw(ih, "°") ; \degree
+    case "o": TextRaw(ih, "°") ; \degree
     case "+": TextRaw(ih, "±") ; \pm
     case "'": TextRaw(ih, "ʾ") ; apostrophe
 
@@ -133,10 +133,4 @@ Worker_2(ih, char)
     case "tt" : TextRaw(ih, FormatTime(,"yyyyMMddHHmmss"))
     case "t[" : TextRaw(ih, '[' FormatTime(,"yyyyMMddHHmmss") ']')
   }
-}
-
-; Check if input match any case
-Worker_3(ih, char)
-{
-  ih.Timeout := 1
 }
