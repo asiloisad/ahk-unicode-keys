@@ -92,6 +92,7 @@ Emojis:
 
 Math symbols acc. [link](https://ctan.org/pkg/amsmath):
 
+- `%`: `‰` (_aka_ `\permil`)
 - `v`: `÷` (_aka_ `\div`)
 - `e`: `≡` (_aka_ `\equiv`)
 - `i`: `∞` (_aka_ `\infty`)

@@ -112,6 +112,7 @@ Worker_2(ih, char)
   switch ih.Input, "On"
   {
     ; Math symbols
+	case "%": TextRaw(ih, "‰") ; \permil
     case "v": TextRaw(ih, "÷") ; \div
     case "e": TextRaw(ih, "≡") ; \equiv
     case "i": TextRaw(ih, "∞") ; \infty
