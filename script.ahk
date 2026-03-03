@@ -94,6 +94,18 @@ Worker_1(ih, char)
     case  "-": TextRaw(ih, "✘")
     case  ".": TextRaw(ih, "•")
 
+    ; Superscript numbers
+    case "0": TextRaw(ih, "⁰")
+    case "1": TextRaw(ih, "¹")
+    case "2": TextRaw(ih, "²")
+    case "3": TextRaw(ih, "³")
+    case "4": TextRaw(ih, "⁴")
+    case "5": TextRaw(ih, "⁵")
+    case "6": TextRaw(ih, "⁶")
+    case "7": TextRaw(ih, "⁷")
+    case "8": TextRaw(ih, "⁸")
+    case "9": TextRaw(ih, "⁹")
+
     ; Emojis
     case ":(": TextRaw(ih, "🙁")
     case ":)": TextRaw(ih, "🙂")
@@ -125,6 +137,18 @@ Worker_2(ih, char)
     case "o": TextRaw(ih, "°") ; \degree
     case "+": TextRaw(ih, "±") ; \pm
     case "'": TextRaw(ih, "ʾ") ; apostrophe
+
+    ; Subscript numbers
+    case "0": TextRaw(ih, "₀")
+    case "1": TextRaw(ih, "₁")
+    case "2": TextRaw(ih, "₂")
+    case "3": TextRaw(ih, "₃")
+    case "4": TextRaw(ih, "₄")
+    case "5": TextRaw(ih, "₅")
+    case "6": TextRaw(ih, "₆")
+    case "7": TextRaw(ih, "₇")
+    case "8": TextRaw(ih, "₈")
+    case "9": TextRaw(ih, "₉")
 
     ; Time & date tags
     case "df" : TextRaw(ih, FormatTime(,"yyyy/MM/dd"))
